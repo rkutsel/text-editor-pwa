@@ -41,10 +41,9 @@ To get started, form the `root` directory run `npm start` which should build all
 The functionality is provided out of the box. To deploy your own version of the app to heroku, run the following commands:
 
 ```bash
-heroku auth:login
-heroku create -a DEPLOYMENT_NAME
-# From the root directory run:
-git push heroku main
+heroku auth:login # 01. loging to your heroku account with your creds.
+heroku create -a DEPLOYMENT_NAME # 02. create a new deployment and give it a name. name is optional. 
+git push heroku main # 03. run it from the root directory to push the deployment to heroku. 
 ```
 
 A successful deploy should generate a link to the deployed app.
