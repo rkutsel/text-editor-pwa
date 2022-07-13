@@ -35,6 +35,7 @@ module.exports = () => {
 				description: "Java Script Text Editor",
 				background_color: "#225ca3",
 				theme_color: "#225ca3",
+				id: "/",
 				start_url: "./",
 				publicPath: "./",
 				icons: [
